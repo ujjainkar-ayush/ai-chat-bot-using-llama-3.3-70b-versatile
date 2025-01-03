@@ -1,3 +1,9 @@
+# this python code requires an API key which you can get from https://groq.com/ this site
+# after getting the API key you have to put it into .env file 
+# you can use any model in this code by doing some minor changes 
+# i have used "llama-3.3-70b-versatile" version here 
+# ======================================================================================================
+
 from phi.agent import Agent
 from phi.model.groq import Groq
 from dotenv import load_dotenv
